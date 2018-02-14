@@ -5,3 +5,11 @@ function foo() {
     }
   }
 }
+
+function baz() {
+  if (something && somethingElse || bar) {
+    if (innerThing || secondThing && thirdThing) {
+      return whatIt || foobar;
+    }
+  }
+}
