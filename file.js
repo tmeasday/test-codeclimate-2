@@ -21,3 +21,7 @@ function baz() {
     }
   }
 }
+
+function whatever() {
+  return 'foo';
+}
